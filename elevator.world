@@ -330,7 +330,7 @@
       </link>
     </model>
 
-<actor name="actor1">
+<actor name="Samy">
       <pose>3 -1 1.57 0 0 0</pose>
       <skin>
         <filename>file://media/models/walk.dae</filename>
@@ -350,13 +350,13 @@
         <!-- Usage: Modify the set of models that the vector field should
              ignore when moving the actor -->
         <ignore_obstacles>
-          <model>ground_plane</model>
+          <model>floor0</model>
         </ignore_obstacles>
 
       </plugin>
     </actor>
 
-    <actor name="actor2">
+    <actor name="Valentin">
       <pose>2.25 1 4.75 0 0 0</pose>
       <skin>
         <filename>file://media/models/walk.dae</filename>
@@ -368,12 +368,79 @@
         <interpolate_x>true</interpolate_x>
       </animation>
       <plugin name="actor2_plugin" filename="libActorPlugin.so">
-        <target>3 2 1.24</target>
+        <target>3 2 4.75</target>
         <target_weight>1.15</target_weight>
         <obstacle_weight>1.8</obstacle_weight>
         <animation_factor>5.1</animation_factor>
         <ignore_obstacles>
-          <model>ground_plane</model>
+          <model>floor1</model>
+        </ignore_obstacles>
+      </plugin>
+    </actor>
+
+    <actor name="Reda">
+      <pose>2.25 1 4.75 0 0 0</pose>
+      <skin>
+        <filename>file://media/models/walk.dae</filename>
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>file://media/models/walk.dae</filename>
+        <scale>1.000000</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <plugin name="actor3_plugin" filename="libActorPlugin.so">
+        <target>3 2 4.75</target>
+        <target_weight>1.15</target_weight>
+        <obstacle_weight>1.8</obstacle_weight>
+        <animation_factor>5.1</animation_factor>
+        <ignore_obstacles>
+          <model>floor1</model>
+        </ignore_obstacles>
+      </plugin>
+    </actor>
+
+    <actor name="Nasma">
+      <pose>2.25 10 4.75 0 0 0</pose>
+      <skin>
+        <filename>file://media/models/walk.dae</filename>
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>file://media/models/walk.dae</filename>
+        <scale>1.000000</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <plugin name="actor4_plugin" filename="libActorPlugin.so">
+        <target>3 2 4.75</target>
+        <target_weight>1.15</target_weight>
+        <obstacle_weight>1.8</obstacle_weight>
+        <animation_factor>5.1</animation_factor>
+        <ignore_obstacles>
+          <model>floor1</model>
+        </ignore_obstacles>
+      </plugin>
+    </actor>
+
+
+    <actor name="Abdarahman">
+      <pose>20.25 1 4.75 0 0 0</pose>
+      <skin>
+        <filename>file://media/models/walk.dae</filename>
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>file://media/models/walk.dae</filename>
+        <scale>1.000000</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <plugin name="actor5_plugin" filename="libActorPlugin.so">
+        <target>3 2 4.75</target>
+        <target_weight>1.15</target_weight>
+        <obstacle_weight>1.8</obstacle_weight>
+        <animation_factor>5.1</animation_factor>
+        <ignore_obstacles>
+          <model>floor1</model>
         </ignore_obstacles>
       </plugin>
     </actor>
