@@ -481,6 +481,19 @@
         </ignore_obstacles>
       </plugin>
     </actor>
+    
+    <actor name="actor_test">
+         <skin>
+            <filename>file://media/models/walk.dae</filename>
+            <scale>1.0</scale>
+        </skin>
+        <pose>0 0 0 0 0 0</pose>
+        <animation name="walking">
+            <filename>file://media/models/walk.dae</filename>
+            <scale>1.000000</scale>
+            <interpolate_x>true</interpolate_x>
+       	</animation>
+      </actor>
 
   </world>
 </sdf>
