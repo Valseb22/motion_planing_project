@@ -19,7 +19,7 @@
     <plugin filename="libSimEventsPlugin.so" name="elevator_event_plugin">
       <!-- Region on the ground floor, in front of the elevator -->
       <region>
-        <name>region1</name>
+	<name>region1</name>
         <volume>
           <min>1.5 -1 0</min>
           <max>2.5 1 1</max>
@@ -487,7 +487,7 @@
             <filename>file://media/models/walk.dae</filename>
             <scale>1.0</scale>
         </skin>
-        <pose>0 0 0 0 0 0</pose>
+        <pose>20 1 0.225 0 0 0</pose>
         <animation name="walking">
             <filename>file://media/models/walk.dae</filename>
             <scale>1.000000</scale>
