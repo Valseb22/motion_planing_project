@@ -364,7 +364,7 @@
 
 
 <actor name="Samy">
-      <pose>6 -1 0.225 0 0 0</pose>
+      <pose>10 -1 0.225 0 0 0</pose>
       <skin>
         <filename>file://media/models/walk.dae</filename>
         <scale>1.0</scale>
@@ -375,7 +375,7 @@
         <interpolate_x>true</interpolate_x>
       </animation>
       <plugin name="actor1_plugin" filename="libActorPlugin.so">
-        <target>10 -5 0.225</target>
+        <target>10 -1 0.225</target>
         <target_weight>1.15</target_weight>
         <obstacle_weight>1.8</obstacle_weight>
         <animation_factor>5.1</animation_factor>
@@ -390,7 +390,7 @@
     </actor>
 
     <actor name="Valentin">
-      <pose>2.25 1 0.225 0 0 0</pose>
+      <pose>12 -1 0.225 0 0 0</pose>
       <skin>
         <filename>file://media/models/walk.dae</filename>
         <scale>1.0</scale>
@@ -401,7 +401,7 @@
         <interpolate_x>true</interpolate_x>
       </animation>
       <plugin name="actor2_plugin" filename="libActorPlugin.so">
-        <target>3 2 0.225</target>
+        <target>12 -1 0.225</target>
         <target_weight>1.15</target_weight>
         <obstacle_weight>1.8</obstacle_weight>
         <animation_factor>5.1</animation_factor>
@@ -413,7 +413,7 @@
     </actor>
 
     <actor name="Reda">
-      <pose>2.25 1 0.225 0 0 0</pose>
+      <pose>11 1 0.225 0 0 0</pose>
       <skin>
         <filename>file://media/models/walk.dae</filename>
         <scale>1.0</scale>
@@ -424,7 +424,7 @@
         <interpolate_x>true</interpolate_x>
       </animation>
       <plugin name="actor3_plugin" filename="libActorPlugin.so">
-        <target>3 2 0.225</target>
+        <target>11 1 0.225</target>
         <target_weight>1.15</target_weight>
         <obstacle_weight>1.8</obstacle_weight>
         <animation_factor>5.1</animation_factor>
@@ -447,7 +447,7 @@
         <interpolate_x>true</interpolate_x>
       </animation>
       <plugin name="actor4_plugin" filename="libActorPlugin.so">
-        <target>3 2 0.225</target>
+        <target>2.25 10 0.225</target>
         <target_weight>1.15</target_weight>
         <obstacle_weight>1.8</obstacle_weight>
         <animation_factor>5.1</animation_factor>
@@ -471,7 +471,7 @@
         <interpolate_x>true</interpolate_x>
       </animation>
       <plugin name="actor5_plugin" filename="libActorPlugin.so">
-        <target>3 2 0.225</target>
+        <target>20.25 1 0.225</target>
         <target_weight>1.15</target_weight>
         <obstacle_weight>1.8</obstacle_weight>
         <animation_factor>5.1</animation_factor>
