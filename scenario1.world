@@ -375,7 +375,7 @@
         <scale>1.000000</scale>
         <interpolate_x>true</interpolate_x>
       </animation>
->
+-->
       <plugin name="actor1_plugin" filename="libActorPlugin.so">
         <target>10 -5 3.2</target>
         <target_weight>1.15</target_weight>
@@ -403,7 +403,7 @@
         <scale>1.000000</scale>
         <interpolate_x>true</interpolate_x>
       </animation>
->
+-->
       <plugin name="actor2_plugin" filename="libActorPlugin.so">
         <target>3 2 3.2</target>
         <target_weight>1.15</target_weight>
@@ -428,7 +428,7 @@
         <scale>1.000000</scale>
         <interpolate_x>true</interpolate_x>
       </animation>
->
+-->
       <plugin name="actor3_plugin" filename="libActorPlugin.so">
         <target>3 2 4.75</target>
         <target_weight>1.15</target_weight>
@@ -452,7 +452,7 @@
         <scale>1.000000</scale>
         <interpolate_x>true</interpolate_x>
       </animation>
->
+-->
       <plugin name="actor4_plugin" filename="libActorPlugin.so">
         <target>3 2 4.75</target>
         <target_weight>1.15</target_weight>
@@ -471,13 +471,13 @@
         <filename>file://media/models/walk.dae</filename>
         <scale>1.0</scale>
       </skin>
-     <--
+     <!--
       <animation name="walking">
         <filename>file://media/models/walk.dae</filename>
         <scale>1.000000</scale>
         <interpolate_x>true</interpolate_x>
       </animation>
-	>
+	-->
       <plugin name="actor5_plugin" filename="libActorPlugin.so">
         <target>3 2 4.75</target>
         <target_weight>1.15</target_weight>
